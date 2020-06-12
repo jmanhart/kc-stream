@@ -2,7 +2,7 @@
   "name": "kc-stream",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jmanhart.github.io/kc-stream/",
+  "homepage": "http://kcstreamers.com/",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",

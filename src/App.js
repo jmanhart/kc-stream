@@ -1,10 +1,18 @@
 import React from 'react';
 import './App.scss';
 
+
+
 const data = [
   {
     "name": "chachitownfair",
     "link": "https://www.twitch.tv/chachitownfair",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
+    "name": "denec27",
+    "link": "Https://www.twitch.tv/denec27",
     "platform": "Twitch",
     "platformImg": "TwitchGlitchPurple.png"
   },
