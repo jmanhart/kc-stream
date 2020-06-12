@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ––––––––––––––––––––––––––––––––––––– */
+// Variables
+/* ––––––––––––––––––––––––––––––––––––– */
+
+/* Font Familys */
+$primary-font: Work Sans, sans-serif;
+
+/* Grays */
+$gray-000: #fafbfc;
+$gray-100: #f6f8fa;
+$gray-200: #e1e4e8;
+$gray-300: #d1d5da;
+$gray-400: #959da5;
+$gray-500: #6a737d;
+$gray-600: #586069;
+$gray-700: #444d56;
+$gray-800: #2f363d;
+$gray-900: #24292e;
+
+/* Blues */
+$blue-000: #f1f8ff;
+$blue-100: #dbedff;
+$blue-200: #c8e1ff;
+$blue-300: #79b8ff;
+$blue-400: #2188ff;
+$blue-500: #0366d6;
+$blue-600: #005cc5;
+$blue-700: #044289;
+$blue-800: #032f62;
+$blue-900: #05264c;
+
+/* Greens */
+$green-000: #f0fff4;
+$green-100: #dcffe4;
+$green-200: #bef5cb;
+$green-300: #85e89d;
+$green-400: #34d058;
+$green-500: #28a745;
+$green-600: #22863a;
+$green-700: #176f2c;
+$green-800: #165c26;
+$green-900: #144620;
+
+/* Purples */
+$purple-000: #f5f0ff;
+$purple-100: #e6dcfd;
+$purple-200: #d1bcf9;
+$purple-300: #b392f0;
+$purple-400: #8a63d2;
+$purple-500: #6f42c1;
+$purple-600: #5a32a3;
+$purple-700: #4c2889;
+$purple-800: #3a1d6e;
+$purple-900: #29134e;
+
+/* Yellows */
+$yellow-000: #fffdef;
+$yellow-100: #fffbdd;
+$yellow-200: #fff5b1;
+$yellow-300: #ffea7f;
+$yellow-400: #ffdf5d;
+$yellow-500: #ffd33d;
+$yellow-600: #f9c513;
+$yellow-700: #dbab09;
+$yellow-800: #b08800;
+$yellow-900: #735c0f;
+
+/* Oranges */
+$orange-000: #fff8f2;
+$orange-100: #ffebda;
+$orange-200: #ffd1ac;
+$orange-300: #ffab70;
+$orange-400: #fb8532;
+$orange-500: #f66a0a;
+$orange-600: #e36209;
+$orange-700: #d15704;
+$orange-800: #c24e00;
+$orange-900: #a04100;
+
+/* Reds */
+$red-000: #ffeef0;
+$red-100: #ffdce0;
+$red-200: #fdaeb7;
+$red-300: #f97583;
+$red-400: #ea4a5a;
+$red-500: #d73a49;
+$red-600: #cb2431;
+$red-700: #b31d28;
+$red-800: #9e1c23;
+$red-900: #86181d;
+
+/* Blacks */
+$black-fade-15: rgba(27, 31, 35, 0.15);
+$black-fade-30: rgba(27, 31, 35, 0.3);
+$black-fade-50: rgba(27, 31, 35, 0.5);
+$black-fade-70: rgba(27, 31, 35, 0.7);
+$black-fade-85: rgba(27, 31, 35, 0.85);
+
+/* Whites */
+$white-fade-15: rgba(255, 255, 255, 0.15);
+$white-fade-30: rgba(255, 255, 255, 0.3);
+$white-fade-50: rgba(255, 255, 255, 0.5);
+$white-fade-70: rgba(255, 255, 255, 0.7);
+$white-fade-85: rgba(255, 255, 255, 0.85);
+
+/* Spacing Scale */
+$spacing-01: 0.125rem; // 2px
+$spacing-02: 0.25rem; // 4px
+$spacing-03: 0.5rem; // 8px
+$spacing-04: 0.75rem; // 12px
+$spacing-05: 1rem; // 16px
+$spacing-06: 1.5rem; // 24px
+$spacing-07: 2rem; // 32px
+$spacing-08: 2.5rem; // 40px
+$spacing-09: 3rem; // 48px
+
+/* Layout scale */
+$layout-01: 1rem; // 16px
+$layout-02: 1.5rem; // 24px
+$layout-03: 2rem; // 32px
+$layout-04: 3rem; // 48px
+$layout-05: 4rem; // 64px
+$layout-06: 6rem; // 96px
+$layout-07: 10rem; // 160px
+
+/* Type Scale */
+$type-01: 0.75rem; // 12px
+$type-02: 1rem; // 16px
+$type-03: 1.25rem; // 20px
+$type-04: 1.5rem; // 24px
+$type-05: 1.75rem; // 28px
+$type-06: 2rem; // 32px
+$type-07: 2.25rem; // 36px
+$type-08: 3rem; // 48px
+$type-09: 3.25rem; // 52px
+$type-10: 3.5rem; // 56px
+
+/* Type Weight */
+$type-weight-light: 300;
+$type-weight-regular: 400;
+$type-weight-medium: 500;
+$type-weight-bold: 700;
+.App {
+  text-align: left;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 24px;
+
+  padding: 3em 3em;
+}
+
+.App-link {
+  color:"#dbedff";
+  font-family: "Work Sans", sans-serif;
+
+}
+
+
+
+img{
+  width: 20px;
+  height: 20px;
+}
+
+
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: $type-08;
+  line-height: $type-10;
+  font-weight: $type-weight-regular;
+  margin-bottom: $spacing-03;
+}
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: $type-06;
+  line-height: $type-08;
+  font-weight: $type-weight-regular;
+  // margin-bottom: $spacing-03;
+  color: $gray-800;
+}
+
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-size: $type-04;
+  line-height: $type-08;
+  font-weight: $type-weight-light;
+  margin-bottom: $spacing-04;
+  margin-right: $spacing-03;
+}
+
+h4 {
+  font-family: "Work Sans", sans-serif;
+  font-size: $type-03;
+  line-height: $type-07;
+  font-weight: $type-weight-light;
+  margin-bottom: $spacing-04;
+  margin-right: $spacing-03;
+
+}
+h5 {
+  font-family: "Work Sans", sans-serif;
+  font-size: $type-03;
+  line-height: $type-07;
+  font-weight: $type-weight-regular;
+  margin-bottom: $spacing-03;
+}
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: $type-02;
+  line-height: $type-06;
+  font-weight: $type-weight-regular;
+  margin-bottom: $spacing-03;
+  color: $gray-500;
+}
+
+code {
+  font-size: $type-04;
+  line-height: $type-05;
+  font-weight: $type-weight-light;
+  display: inline-block;
+  padding: $spacing-02;
+  border: 1px solid $gray-300;
+  border-radius: $spacing-02;
+  color: $red-300;
+}
+
+li {
+  font-size: $type-04;
+  line-height: $type-05;
+  font-weight: $type-weight-light;
+  list-style-type: none;
+  display: flex;
+}
+
+ul {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+a {
+  color: $gray-700;
+}
+
+a:hover {
+  color:$blue-500;
+}
