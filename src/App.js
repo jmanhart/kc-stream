@@ -80,7 +80,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h2>🎮 Kansas City Streamers</h2>
-      <p>Last updated 6/1/2020 | <a href="https://twitter.com/JohnManhart">Ask to Join</a></p>
+      <p>Last updated 6/10/2020 | <a href="https://twitter.com/JohnManhart">Ask to Join</a></p>
       <ul>
         {data.map((item) => {
           return (
