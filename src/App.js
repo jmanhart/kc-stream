@@ -41,10 +41,22 @@ const data = [
     "platformImg": "TwitchGlitchPurple.png"
   },
   {
+    "name": "kooglertv",
+    "link": "https://www.twitch.tv/kooglertv",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
     "name": "lotis_mindset",
     "link": "https://www.twitch.tv/lotis_mindset",
     "platform": "Twitch",
     "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
+    "name": "MnMenace86",
+    "link": "https://www.facebook.com/MnMenace86/",
+    "platform": "Facebook",
+    "platformImg": "FbLogoColor.png"
   },
   {
     "name": "Nerdmeat_",
