@@ -5,6 +5,18 @@ import './App.scss';
 
 const data = [
   {
+    "name": "ArtificialAndrew",
+    "link": "https://www.twitch.tv/artificialandrew",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
+    "name": "BZHub",
+    "link": "https://www.twitch.tv/BZHub",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
     "name": "chachitownfair",
     "link": "https://www.twitch.tv/chachitownfair",
     "platform": "Twitch",
@@ -19,6 +31,12 @@ const data = [
   {
     "name": "gibrias",
     "link": "https://www.twitch.tv/gibrias",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
+    "name": "HusKerrs",
+    "link": "https://www.twitch.tv/huskerrs",
     "platform": "Twitch",
     "platformImg": "TwitchGlitchPurple.png"
   },
@@ -65,6 +83,12 @@ const data = [
     "platformImg": "TwitchGlitchPurple.png"
   },
   {
+    "name": "RTY_KC",
+    "link": "https://www.twitch.tv/RTY_KC",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
     "name": "sinrin",
     "link": "https://www.twitch.tv/sinrin",
     "platform": "Twitch",
@@ -85,6 +109,12 @@ const data = [
   {
     "name": "starsofnight",
     "link": "https://www.twitch.tv/starsofnight",
+    "platform": "Twitch",
+    "platformImg": "TwitchGlitchPurple.png"
+  },
+  {
+    "name": "tegannotsara1",
+    "link": "https://www.twitch.tv/tegannotsara1",
     "platform": "Twitch",
     "platformImg": "TwitchGlitchPurple.png"
   },
