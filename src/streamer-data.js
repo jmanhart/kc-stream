@@ -42,12 +42,6 @@ const StreamerData = [
       "platformImg": "TwitchGlitchPurple.png"
     },
     {
-      "name": "HYPRRR",
-      "link": "https://www.facebook.com/HYPRRR/",
-      "platform": "Facebook",
-      "platformImg": "FbLogoColor.png"
-    },
-    {
       "name": "ItsManhart",
       "link": "https://www.twitch.tv/ItsManhart",
       "platform": "Twitch",
@@ -122,3 +116,7 @@ const StreamerData = [
   ]
 
   export default StreamerData;
+
+
+
+

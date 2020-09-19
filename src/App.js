@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <h2>🎮 Kansas City Streamers</h2>
-      <p>Last updated 9/15/2020 | <a href="https://twitter.com/JohnManhart">Ask to Join</a></p>
+      <p>Last updated 9/18/2020 | <a href="https://twitter.com/JohnManhart">Ask to Join</a></p>
       <ul>
         {StreamerData.map((item) => {
           return (
